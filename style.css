@@ -1,0 +1,123 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+body{
+	margin:0;
+	padding:0;
+	/*font-family:sans-serif;*/
+	font-family:Poppins;
+	background:url(img/pic.jpg) no-repeat;
+	background-size:cover;
+}
+.login_box{
+	width:330px;
+	height:410px;
+	color:#fff;
+	border-radius:8%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	box-shadow:8px 8px 50px #000;
+}
+.man {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -38px;
+    left: calc(50% - 50px);
+}
+	
+.login_box h1 {
+    border-bottom: 2px solid #180a21;
+    margin: 20px 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: Courgette;
+    /* padding: 13px 0; */
+}
+.textbox {
+    width: 70%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 40px;
+    border-bottom: 1px solid;
+}
+.textbox i{
+	width:26px;
+	float:left;
+	text-align:center;
+}
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+.btn {
+    width: 38%;
+    background: #03a9f4;
+    border: 2px solid;
+    color: #fff;
+	border-radius:10%;
+    padding: 6px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 18px 100px;
+    font-weight: bold;
+}
+.bottom-text {
+	width:97%;
+	border-top:2px solid #fff;
+    padding: 6px;
+    margin: 10px 0px;
+    color: #fff;
+}
+.bottom-text input{
+	width:10%;
+	float:left;
+}
+.bottom-text a{
+	color: #fff;
+	text-decoration:none;
+	float:right;
+}
+.socials{
+	margin-top: 12%;
+	text-align:center;
+}
+.socials a{
+	color:#fff;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	border:1px solid #fff;
+	border-radius:50%;
+	margin:0 5px;
+}
+.socials a:nth-child(1){
+	background:#3b5998;
+}
+.socials a:nth-child(2){
+	background:#55acee;
+}
+.socials a:nth-child(3){
+	background:#bd081c;
+}
+.socials a:nth-child(4){
+	background:#0077b5;
+}
+.socials a i{
+	padding:8px 0;
+}
+
